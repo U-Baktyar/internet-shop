@@ -1,7 +1,7 @@
 package shop.entity.product;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import shop.entity.user.User;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -57,6 +57,7 @@ public class Category {
         return updatedAt;
     }
 
+    @JsonIgnore
     public List<Product> getProduct(){return products;}
 
     @Override

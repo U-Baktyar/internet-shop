@@ -3,6 +3,7 @@ package shop.configuration;
 import jakarta.persistence.EntityManagerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -15,6 +16,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
+@EnableJpaRepositories(basePackages = "shop.dao")
 public class PersistenceConfig {
 
     @Bean
@@ -40,7 +42,6 @@ public class PersistenceConfig {
         properties.put("hibernate.format_sql", "true");
         properties.put("hibernate.hbm2ddl.auto", "validate");
         emf.setJpaProperties(properties);
-
         return emf;
     }
 

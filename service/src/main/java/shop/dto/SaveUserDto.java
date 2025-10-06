@@ -1,0 +1,52 @@
+package shop.dto;
+
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import shop.serializeble.DataDeserializer;
+import shop.serializeble.DataSerializable;
+
+import java.time.LocalDate;
+
+public class SaveUserDto {
+    private String login;
+    private String password;
+    private String email;
+
+    @JsonSerialize(using = DataSerializable.class)
+    @JsonDeserialize(using = DataDeserializer.class)
+    private LocalDate birthday;
+
+    public SaveUserDto() {}
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public LocalDate getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(LocalDate birthday) {
+        this.birthday = birthday;
+    }
+}

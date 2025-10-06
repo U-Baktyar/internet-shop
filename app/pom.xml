@@ -20,12 +20,12 @@
         </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>shop</groupId>
-            <artifactId>persistence</artifactId>
+            <artifactId>web</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
 
 
         <dependency>
@@ -42,6 +42,12 @@
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-webapp</artifactId>
             <version>${jetty.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>6.2.10</version>
+            <scope>compile</scope>
         </dependency>
 
 
