@@ -9,7 +9,7 @@ import java.util.Objects;
 @Table(name = "users")
 public class User {
 
-    protected User() {
+    public User() {
     }
 
     @Id
