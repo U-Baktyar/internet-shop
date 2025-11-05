@@ -34,4 +34,6 @@ public class ProductDto {
     public void setUnit(String unit) {
         this.unit = unit;
     }
+
+
 }

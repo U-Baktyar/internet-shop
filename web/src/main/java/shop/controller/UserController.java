@@ -22,7 +22,7 @@ public class UserController {
         return userService.getUserByLogin(login);
     }
 
-    @PostMapping("/save")
+    @PostMapping("/register")
     public UserDto SaveUser(@RequestBody SaveUserDto saveUserDto) {
         return userService.saveUser(saveUserDto);
     }

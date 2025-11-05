@@ -6,7 +6,6 @@ import shop.dao.ProductDao;
 import shop.dto.ProductDto;
 
 import shop.mapper.ProductMapper;
-import shop.mapper.impl.ProductMapperImpl;
 import shop.service.ProductService;
 
 import java.util.List;
