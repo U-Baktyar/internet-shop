@@ -9,7 +9,7 @@ import java.util.Objects;
 @Table(name = "products")
 public class Product {
 
-    protected Product() {}
+    public Product() {}
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -65,9 +65,11 @@ public class Product {
     public UnitEnum getUnit() {
         return unit;
     }
+
     public void setUnit(UnitEnum unit) {
         this.unit = unit;
     }
+
     public void setUnitByString(String value) {
         this.unit = UnitEnum.fromValue(value);
     }
