@@ -1,0 +1,240 @@
+@2025:12:17 01:38:57 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+@2025:12:17 01:38:58 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+@2025:12:17 01:39:00 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+@2025:12:17 01:39:00 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 7.0.0.Final
+@2025:12:17 01:39:00 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+@2025:12:17 01:39:01 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+@2025:12:17 01:39:01 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/shop]
+	Database driver: PostgreSQL JDBC Driver
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+@2025:12:17 01:39:03 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+@2025:12:17 01:39:03 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 01:39:03 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+@2025:12:17 01:39:04 INFO  org.flywaydb.core.internal.resource.ResourceNameValidator - 3 SQL migrations were detected but not run because they did not follow the filename convention.
+@2025:12:17 01:39:04 INFO  org.flywaydb.core.internal.resource.ResourceNameValidator - Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+@2025:12:17 01:39:04 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/shop (PostgreSQL 14.18)
+@2025:12:17 01:39:04 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.034s)
+@2025:12:17 01:39:05 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "public": 1.1759429398
+@2025:12:17 01:39:05 ERROR org.flywaydb.core.internal.command.DbMigrate - Schema "public" has version 1.1759429398, but no migration could be resolved in the configured locations !
+@2025:12:17 01:39:05 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+@2025:12:17 01:39:05 INFO  shop.log.UserActionLoggingAspect - Пользователь зарегистрирован: Aizek
+@2025:12:17 01:39:05 INFO  shop.log.UserActionLoggingAspect - Пользователь зарегистрирован: Jessika
+@2025:12:17 01:39:05 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 01:39:24 INFO  org.eclipse.jetty.server.Server - jetty-11.0.26; built: 2025-08-14T18:03:14.457Z; git: 7559873b6e46eea7c2c6da2b58327ea2ecf941f4; jvm 21.0.3+9-LTS
+@2025:12:17 01:39:24 INFO  org.eclipse.jetty.server.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:39:24 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:39:25 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+@2025:12:17 01:39:25 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+@2025:12:17 01:39:26 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+@2025:12:17 01:39:26 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+@2025:12:17 01:39:27 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+@2025:12:17 01:39:28 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+@2025:12:17 01:39:28 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/shop]
+	Database driver: PostgreSQL JDBC Driver
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+@2025:12:17 01:39:30 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+@2025:12:17 01:39:30 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 01:39:31 INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+@2025:12:17 01:39:31 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+@2025:12:17 01:39:33 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/shop (PostgreSQL 14.18)
+@2025:12:17 01:39:33 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.030s)
+@2025:12:17 01:39:33 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "public": 1.1759429398
+@2025:12:17 01:39:33 ERROR org.flywaydb.core.internal.command.DbMigrate - Schema "public" has version 1.1759429398, but no migration could be resolved in the configured locations !
+@2025:12:17 01:39:33 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+@2025:12:17 01:39:33 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8895 ms
+@2025:12:17 01:39:33 INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13553828{/,null,AVAILABLE}
+@2025:12:17 01:39:33 INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5dd6264{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+@2025:12:17 01:39:33 INFO  org.eclipse.jetty.server.Server - Started Server@20d525{STARTING}[11.0.26,sto=0] @10094ms
+@2025:12:17 01:40:20 INFO  shop.log.UserActionLoggingAspect - Пользователь зарегистрирован: silvia
+@2025:12:17 01:41:50 INFO  org.eclipse.jetty.server.Server - jetty-11.0.26; built: 2025-08-14T18:03:14.457Z; git: 7559873b6e46eea7c2c6da2b58327ea2ecf941f4; jvm 21.0.3+9-LTS
+@2025:12:17 01:41:50 INFO  org.eclipse.jetty.server.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:41:50 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:41:51 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+@2025:12:17 01:41:51 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces.
+@2025:12:17 01:41:52 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+@2025:12:17 01:41:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+@2025:12:17 01:41:53 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+@2025:12:17 01:41:54 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+@2025:12:17 01:41:54 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/shop]
+	Database driver: PostgreSQL JDBC Driver
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+@2025:12:17 01:41:55 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+@2025:12:17 01:41:55 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 01:41:56 INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+@2025:12:17 01:41:56 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+@2025:12:17 01:41:58 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/shop (PostgreSQL 14.18)
+@2025:12:17 01:41:58 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.025s)
+@2025:12:17 01:41:58 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "public": 1.1759429398
+@2025:12:17 01:41:58 ERROR org.flywaydb.core.internal.command.DbMigrate - Schema "public" has version 1.1759429398, but no migration could be resolved in the configured locations !
+@2025:12:17 01:41:58 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+@2025:12:17 01:41:58 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7742 ms
+@2025:12:17 01:41:58 INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2512eaaa{/,null,AVAILABLE}
+@2025:12:17 01:41:58 INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5dd6264{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+@2025:12:17 01:41:58 INFO  org.eclipse.jetty.server.Server - Started Server@20d525{STARTING}[11.0.26,sto=0] @8759ms
+@2025:12:17 01:46:20 INFO  shop.log.UserActionLoggingAspect - Пользователь зарегистрирован: jessica
+@2025:12:17 01:47:09 INFO  org.eclipse.jetty.server.Server - jetty-11.0.26; built: 2025-08-14T18:03:14.457Z; git: 7559873b6e46eea7c2c6da2b58327ea2ecf941f4; jvm 21.0.3+9-LTS
+@2025:12:17 01:47:09 INFO  org.eclipse.jetty.server.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:47:09 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:47:10 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+@2025:12:17 01:47:10 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+@2025:12:17 01:47:11 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+@2025:12:17 01:47:11 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+@2025:12:17 01:47:12 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+@2025:12:17 01:47:12 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+@2025:12:17 01:47:13 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/shop]
+	Database driver: PostgreSQL JDBC Driver
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+@2025:12:17 01:47:14 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+@2025:12:17 01:47:15 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 01:47:15 INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+@2025:12:17 01:47:16 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+@2025:12:17 01:47:17 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/shop (PostgreSQL 14.18)
+@2025:12:17 01:47:17 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.033s)
+@2025:12:17 01:47:17 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "public": 1.1759429398
+@2025:12:17 01:47:17 ERROR org.flywaydb.core.internal.command.DbMigrate - Schema "public" has version 1.1759429398, but no migration could be resolved in the configured locations !
+@2025:12:17 01:47:17 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+@2025:12:17 01:47:18 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8170 ms
+@2025:12:17 01:47:18 INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2512eaaa{/,null,AVAILABLE}
+@2025:12:17 01:47:18 INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5dd6264{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+@2025:12:17 01:47:18 INFO  org.eclipse.jetty.server.Server - Started Server@20d525{STARTING}[11.0.26,sto=0] @9207ms
+@2025:12:17 01:49:56 INFO  shop.log.UserActionLoggingAspect - Пользователь зарегистрирован: silvia
+@2025:12:17 01:52:36 INFO  org.eclipse.jetty.server.Server - jetty-11.0.26; built: 2025-08-14T18:03:14.457Z; git: 7559873b6e46eea7c2c6da2b58327ea2ecf941f4; jvm 21.0.3+9-LTS
+@2025:12:17 01:52:36 INFO  org.eclipse.jetty.server.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:52:36 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:52:36 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+@2025:12:17 01:52:37 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 3 JPA repository interfaces.
+@2025:12:17 01:52:37 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+@2025:12:17 01:52:38 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+@2025:12:17 01:52:38 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+@2025:12:17 01:52:39 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+@2025:12:17 01:52:39 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/shop]
+	Database driver: PostgreSQL JDBC Driver
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+@2025:12:17 01:52:42 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+@2025:12:17 01:52:42 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 01:52:43 INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+@2025:12:17 01:52:43 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+@2025:12:17 01:52:44 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/shop (PostgreSQL 14.18)
+@2025:12:17 01:52:44 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.032s)
+@2025:12:17 01:52:44 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "public": 1.1759429398
+@2025:12:17 01:52:44 ERROR org.flywaydb.core.internal.command.DbMigrate - Schema "public" has version 1.1759429398, but no migration could be resolved in the configured locations !
+@2025:12:17 01:52:44 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+@2025:12:17 01:52:45 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9138 ms
+@2025:12:17 01:52:45 INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3435b6d8{/,null,AVAILABLE}
+@2025:12:17 01:52:45 INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5dd6264{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+@2025:12:17 01:52:45 INFO  org.eclipse.jetty.server.Server - Started Server@20d525{STARTING}[11.0.26,sto=0] @10129ms
+@2025:12:17 01:53:09 INFO  org.eclipse.jetty.server.Server - jetty-11.0.26; built: 2025-08-14T18:03:14.457Z; git: 7559873b6e46eea7c2c6da2b58327ea2ecf941f4; jvm 21.0.3+9-LTS
+@2025:12:17 01:53:09 INFO  org.eclipse.jetty.server.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:53:09 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:53:09 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+@2025:12:17 01:53:09 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+@2025:12:17 01:53:10 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+@2025:12:17 01:53:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+@2025:12:17 01:53:11 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+@2025:12:17 01:53:12 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+@2025:12:17 01:53:12 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/shop]
+	Database driver: PostgreSQL JDBC Driver
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+@2025:12:17 01:53:14 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+@2025:12:17 01:53:14 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 01:53:15 INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+@2025:12:17 01:53:15 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+@2025:12:17 01:53:16 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/shop (PostgreSQL 14.18)
+@2025:12:17 01:53:16 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.032s)
+@2025:12:17 01:53:17 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "public": 1.1759429398
+@2025:12:17 01:53:17 ERROR org.flywaydb.core.internal.command.DbMigrate - Schema "public" has version 1.1759429398, but no migration could be resolved in the configured locations !
+@2025:12:17 01:53:17 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+@2025:12:17 01:53:17 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8663 ms
+@2025:12:17 01:53:17 INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13553828{/,null,AVAILABLE}
+@2025:12:17 01:53:17 INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5dd6264{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+@2025:12:17 01:53:17 INFO  org.eclipse.jetty.server.Server - Started Server@20d525{STARTING}[11.0.26,sto=0] @9725ms
+@2025:12:17 01:53:23 INFO  shop.log.UserActionLoggingAspect - Пользователь зарегистрирован: silvia
+@2025:12:17 01:53:42 INFO  shop.log.UserActionLoggingAspect - Пользователь зарегистрирован: silvia
+@2025:12:17 01:54:33 INFO  org.eclipse.jetty.server.Server - jetty-11.0.26; built: 2025-08-14T18:03:14.457Z; git: 7559873b6e46eea7c2c6da2b58327ea2ecf941f4; jvm 21.0.3+9-LTS
+@2025:12:17 01:54:33 INFO  org.eclipse.jetty.server.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:54:33 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 01:54:34 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+@2025:12:17 01:54:34 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+@2025:12:17 01:54:35 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+@2025:12:17 01:54:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+@2025:12:17 01:54:36 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+@2025:12:17 01:54:37 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+@2025:12:17 01:54:37 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/shop]
+	Database driver: PostgreSQL JDBC Driver
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+@2025:12:17 01:54:39 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+@2025:12:17 01:54:39 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 01:54:40 INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+@2025:12:17 23:59:33 INFO  org.eclipse.jetty.server.Server - jetty-11.0.26; built: 2025-08-14T18:03:14.457Z; git: 7559873b6e46eea7c2c6da2b58327ea2ecf941f4; jvm 21.0.3+9-LTS
+@2025:12:17 23:59:33 INFO  org.eclipse.jetty.server.handler.ContextHandler.ROOT - Initializing Spring DispatcherServlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 23:59:33 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'org.springframework.web.servlet.DispatcherServlet-ba2f4ec'
+@2025:12:17 23:59:34 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+@2025:12:17 23:59:34 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+@2025:12:17 23:59:35 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+@2025:12:17 23:59:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version [WORKING]
+@2025:12:17 23:59:36 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+@2025:12:17 23:59:37 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+@2025:12:17 23:59:37 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/shop]
+	Database driver: PostgreSQL JDBC Driver
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+@2025:12:17 23:59:40 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+@2025:12:17 23:59:40 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+@2025:12:17 23:59:41 INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+@2025:12:17 23:59:41 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+@2025:12:17 23:59:43 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/shop (PostgreSQL 14.18)
+@2025:12:17 23:59:43 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.041s)
+@2025:12:17 23:59:43 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "public": 1.1759429398
+@2025:12:17 23:59:43 ERROR org.flywaydb.core.internal.command.DbMigrate - Schema "public" has version 1.1759429398, but no migration could be resolved in the configured locations !
+@2025:12:17 23:59:43 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+@2025:12:17 23:59:44 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10769 ms
+@2025:12:17 23:59:44 INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2512eaaa{/,null,AVAILABLE}
+@2025:12:17 23:59:44 INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5dd6264{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+@2025:12:17 23:59:44 INFO  org.eclipse.jetty.server.Server - Started Server@20d525{STARTING}[11.0.26,sto=0] @12484ms

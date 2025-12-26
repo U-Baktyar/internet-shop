@@ -2,7 +2,6 @@ package shop.mapper.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import shop.dto.SaveUserDto;
-import shop.dto.UpdateProfileUserDto;
 import shop.dto.UserDto;
 import shop.entity.user.User;
 import shop.mapper.UserMapper;
@@ -39,6 +38,13 @@ public class UserMapperImpl implements UserMapper {
         return user;
     }
 
-
-
+    public User toUserOnUpdate(UserDto userDto, User user){
+        if (userDto == null) {
+            return null;
+        }
+        user.setLogin(userDto.getLogin());
+        user.setEmail(userDto.getEmail());
+        user.setBirthDate(userDto.getBirthday());
+        return user;
+    };
 }

@@ -1,6 +1,8 @@
 package shop.dto;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import shop.serializeble.DataDeserializer;
 import shop.serializeble.DataSerializable;
 
 import java.time.LocalDate;
@@ -8,7 +10,9 @@ import java.time.LocalDate;
 public class UserDto {
     private String login;
     private String email;
+
     @JsonSerialize(using = DataSerializable.class)
+    @JsonDeserialize(using = DataDeserializer.class)
     private LocalDate birthday;
 
     public UserDto() {

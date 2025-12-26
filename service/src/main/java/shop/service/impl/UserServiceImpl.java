@@ -12,7 +12,7 @@ import shop.service.UserService;
 
 
 @Service
-    public class UserServiceImpl implements UserService {
+public class UserServiceImpl implements UserService {
 
     private final UserDao userDao;
     private final UserMapper userMapper;

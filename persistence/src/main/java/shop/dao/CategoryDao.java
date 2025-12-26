@@ -6,8 +6,9 @@ import shop.entity.product.Category;
 
 import java.util.Set;
 
-    public interface CategoryDao extends JpaRepository<Category, Integer> {
+public interface CategoryDao extends JpaRepository<Category, Integer> {
 
+    
     @Query("SELECT c.name FROM Category c")
     Set<String> findAllNames();
 }

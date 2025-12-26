@@ -32,11 +32,11 @@ public class Main {
         context.setContextPath("/");
         DispatcherServlet dispatcherServlet = new DispatcherServlet(webContext);
         ServletHolder servletHolder = new ServletHolder(dispatcherServlet);
-        context.addServlet(servletHolder, "/"); // DispatcherServlet маппится на "/"
+        context.addServlet(servletHolder, "/");
 
         // DelegatingFilterProxy для Spring Security
         FilterHolder securityFilter = new FilterHolder(new DelegatingFilterProxy("springSecurityFilterChain"));
-        context.addFilter(securityFilter, "/*", EnumSet.of(DispatcherType.REQUEST)); // <- исправлено
+        context.addFilter(securityFilter, "/*", EnumSet.of(DispatcherType.REQUEST));
 
         server.setHandler(context);
 
